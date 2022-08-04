@@ -31,6 +31,6 @@ plus.addEventListener("click", () => {
         })
     }
     equal.addEventListener("click", () => {
-        resultDisplay.innerHTML = `${currentNum} and ${nextNum}`;
+        resultDisplay.innerHTML = currentNum + nextNum;
     })
 })
